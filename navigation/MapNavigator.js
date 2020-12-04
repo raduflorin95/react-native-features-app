@@ -35,7 +35,7 @@ const MapsNavigator = createStackNavigator(
 
 const MainNavigator = createDrawerNavigator(
   {
-    Map: { screen: MapsNavigator, navigationOptions: { title: "Maps" } },
+    Maps: MapsNavigator,
   },
   {
     contentOptions: {

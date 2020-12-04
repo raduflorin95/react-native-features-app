@@ -34,6 +34,19 @@ PlacesScreen.navigationOptions = (navData) => {
         />
       </HeaderButtons>
     ),
+    headerRight: (
+      <HeaderButtons HeaderButtonComponent={HeaderButton}>
+        <Item
+          title="Add a place"
+          iconName={
+            Platform.OS === "android" ? "md-add-circle" : "ios-add-circle"
+          }
+          onPress={() => {
+            navData.navigation.navigate("NewPlace");
+          }}
+        />
+      </HeaderButtons>
+    ),
   };
 };
 

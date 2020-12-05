@@ -6,6 +6,7 @@ import { createDrawerNavigator } from "react-navigation-drawer";
 import PlacesScreen from "../screens/PlacesScreen";
 import PlaceDetailScreen from "../screens/PlaceDetailScreen";
 import NewPlaceScreen from "../screens/NewPlaceScreen";
+import MapScreen from "../screens/MapScreen";
 
 import Colors from "../constants/Colors";
 
@@ -27,6 +28,7 @@ const MapsNavigator = createStackNavigator(
     Places: PlacesScreen,
     PlaceDetail: PlaceDetailScreen,
     NewPlace: NewPlaceScreen,
+    Map: MapScreen,
   },
   {
     defaultNavigationOptions: defaultNavOptions,

@@ -1,0 +1,586 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+MERGED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:expo-splash-screen] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /Users/raduflorin95/Desktop/native-features-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-reanimated] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c02faf34d58ffb368174fd24f3ea412/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-29:12
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b9604666a0b9bbe1ab905eeb5622e5c4/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c4a0854b2c4c976f5fd7b439b5911773/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:expo-constants] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-font] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-22:12
+MERGED from [:expo-permissions] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-sqlite] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/af4f13a70a07d4d5536cd923addaf30b/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/454c96154d0a2efb5f34ced0245cf76d/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c8969c989a883c90728abf2f80f32fb/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5a2410130ba40b82b4f9bed40d7f483e/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/13dda75bcf2643fb917d5dc46398410e/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c416dd8728d3ebccaf2e74e1e1aab223/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/95ee73f6c014e94cc84e3a19f64125f8/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d714370ddf5fbdfacb720f51a570f5d4/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e1a755a5eb4e9c5b244c1a9f660f0c11/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1b42f88dea3794bc67b44839b4ca1a7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db0275688f03c6e6f8c25812d8756719/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e17ef88ef8c7f65dc4b890d698e046ca/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/f53bca436baf2a2670073f8750b0b7d5/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8dc6c78d6d7c962ba02416981491cd60/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/096a8f1603949d4f18a7cbc7eecc51f2/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/422ace6a75dd412e501b9bf85446fc1e/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d78ae12d9aa12e93077461f94a53335b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37c50c3790fd1f696b8c9e7a44956408/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/ea0a4b9f38df0bd0a5ca21622ebef69f/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+	package
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:70-91
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:1-56:12
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:2:3-64
+MERGED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:2:20-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:3:5-78
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:4:5-64
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:4:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:5:5-80
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-81
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:27:3-55:17
+MERGED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c02faf34d58ffb368174fd24f3ea412/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c02faf34d58ffb368174fd24f3ea412/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-29:19
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-29:19
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-20:19
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-20:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d714370ddf5fbdfacb720f51a570f5d4/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d714370ddf5fbdfacb720f51a570f5d4/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db0275688f03c6e6f8c25812d8756719/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db0275688f03c6e6f8c25812d8756719/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:29:5-37
+	android:roundIcon
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:31:5-50
+	android:icon
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:30:5-39
+	android:allowBackup
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:32:5-32
+	android:theme
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:33:5-36
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:28:5-36
+meta-data#expo.modules.updates.EXPO_UPDATE_URL
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:5-103
+	android:value
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:68-101
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:16-67
+meta-data#expo.modules.updates.EXPO_SDK_VERSION
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:5-112
+	android:value
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:69-110
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:16-68
+activity#com.rnguide.MainActivity
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:37:5-49:16
+	android:label
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:39:7-39
+	android:launchMode
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:41:7-38
+	android:windowSoftInputMode
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:42:7-49
+	android:configChanges
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:40:7-84
+	android:theme
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:43:7-52
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:38:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:45:7-48:23
+action#android.intent.action.MAIN
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:46:9-60
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:46:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:47:9-68
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:47:19-66
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:50:15-79
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:51:5-54:16
+	android:theme
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:53:7-50
+	android:name
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:52:7-70
+uses-sdk
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/raduflorin95/Desktop/native-features-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/raduflorin95/Desktop/native-features-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c02faf34d58ffb368174fd24f3ea412/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c02faf34d58ffb368174fd24f3ea412/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b9604666a0b9bbe1ab905eeb5622e5c4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b9604666a0b9bbe1ab905eeb5622e5c4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c4a0854b2c4c976f5fd7b439b5911773/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c4a0854b2c4c976f5fd7b439b5911773/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:expo-constants] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/raduflorin95/Desktop/native-features-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/af4f13a70a07d4d5536cd923addaf30b/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/af4f13a70a07d4d5536cd923addaf30b/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/454c96154d0a2efb5f34ced0245cf76d/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/454c96154d0a2efb5f34ced0245cf76d/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c8969c989a883c90728abf2f80f32fb/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6c8969c989a883c90728abf2f80f32fb/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5a2410130ba40b82b4f9bed40d7f483e/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5a2410130ba40b82b4f9bed40d7f483e/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/13dda75bcf2643fb917d5dc46398410e/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/13dda75bcf2643fb917d5dc46398410e/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c416dd8728d3ebccaf2e74e1e1aab223/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c416dd8728d3ebccaf2e74e1e1aab223/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/95ee73f6c014e94cc84e3a19f64125f8/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/95ee73f6c014e94cc84e3a19f64125f8/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d714370ddf5fbdfacb720f51a570f5d4/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d714370ddf5fbdfacb720f51a570f5d4/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e1a755a5eb4e9c5b244c1a9f660f0c11/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e1a755a5eb4e9c5b244c1a9f660f0c11/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1b42f88dea3794bc67b44839b4ca1a7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1b42f88dea3794bc67b44839b4ca1a7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db0275688f03c6e6f8c25812d8756719/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db0275688f03c6e6f8c25812d8756719/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e17ef88ef8c7f65dc4b890d698e046ca/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e17ef88ef8c7f65dc4b890d698e046ca/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/f53bca436baf2a2670073f8750b0b7d5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/f53bca436baf2a2670073f8750b0b7d5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8dc6c78d6d7c962ba02416981491cd60/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/8dc6c78d6d7c962ba02416981491cd60/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/096a8f1603949d4f18a7cbc7eecc51f2/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/096a8f1603949d4f18a7cbc7eecc51f2/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/422ace6a75dd412e501b9bf85446fc1e/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/422ace6a75dd412e501b9bf85446fc1e/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d78ae12d9aa12e93077461f94a53335b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/d78ae12d9aa12e93077461f94a53335b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37c50c3790fd1f696b8c9e7a44956408/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/37c50c3790fd1f696b8c9e7a44956408/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/ea0a4b9f38df0bd0a5ca21622ebef69f/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/ea0a4b9f38df0bd0a5ca21622ebef69f/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:91
+	android:value
+		ADDED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+	android:name
+		ADDED from [:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-80
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+MERGED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-77
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-26:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-25:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:17-67
+provider#expo.modules.imagepicker.ImagePickerFileProvider
+ADDED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-28:20
+	android:grantUriPermissions
+		ADDED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-47
+	android:authorities
+		ADDED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-75
+	android:exported
+		ADDED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-85
+	android:name
+		ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/e2c137da8be7d18aa56cd7ddb33a05f6/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:26:13-120

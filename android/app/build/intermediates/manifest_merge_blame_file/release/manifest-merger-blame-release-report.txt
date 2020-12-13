@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnguide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:2:3-64
+11-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:2:20-62
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:3:5-78
+12-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:4:5-64
+13-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:5:5-80
+14-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+15-->[:expo-updates] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+16-->[:react-native-maps] /Users/raduflorin95/Desktop/native-features-app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-80
+17-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-85
+18-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-82
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-77
+19-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-74
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+25-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+25-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+26    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+26-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+26-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+27    <!--
+28 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+29  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+30  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+31  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+32  <uses-permission android:name="android.permission.VIBRATE"/>
+33  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+34    -->
+35    <!-- These require runtime permissions on M -->
+36    <!--
+37 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+38
+39  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+40
+41  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+42  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+43  <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+44  <uses-permission android:name="android.permission.READ_CALENDAR"/>
+45  <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+46  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+47
+48  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+49    -->
+50    <!-- END OPTIONAL PERMISSIONS -->
+51    <application
+51-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:27:3-55:17
+52        android:name="com.rnguide.MainApplication"
+52-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:28:5-36
+53        android:allowBackup="false"
+53-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:32:5-32
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+55        android:icon="@mipmap/ic_launcher"
+55-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:30:5-39
+56        android:label="@string/app_name"
+56-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:29:5-37
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:31:5-50
+58        android:theme="@style/AppTheme" >
+58-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:33:5-36
+59        <meta-data
+59-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:5-103
+60            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+60-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:16-67
+61            android:value="YOUR-APP-URL-HERE" />
+61-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:35:68-101
+62        <meta-data
+62-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:5-112
+63            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+63-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:16-68
+64            android:value="YOUR-APP-SDK-VERSION-HERE" />
+64-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:36:69-110
+65
+66        <activity
+66-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:37:5-49:16
+67            android:name="com.rnguide.MainActivity"
+67-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:38:7-35
+68            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+68-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:40:7-84
+69            android:label="@string/app_name"
+69-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:39:7-39
+70            android:launchMode="singleTask"
+70-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:41:7-38
+71            android:theme="@style/Theme.App.SplashScreen"
+71-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:43:7-52
+72            android:windowSoftInputMode="adjustResize" >
+72-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:42:7-49
+73            <intent-filter>
+73-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:45:7-48:23
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:46:9-60
+74-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:46:17-58
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:47:9-68
+76-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:47:19-66
+77            </intent-filter>
+78        </activity>
+79        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+79-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:50:5-81
+79-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:50:15-79
+80        <activity
+80-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:51:5-54:16
+81            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+81-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:52:7-70
+82            android:theme="@style/Base.Theme.AppCompat" >
+82-->/Users/raduflorin95/Desktop/native-features-app/android/app/src/main/AndroidManifest.xml:53:7-50
+83        </activity>
+84
+85        <meta-data
+85-->[:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:91
+86            android:name="org.unimodules.core.AppLoader#react-native-headless"
+86-->[:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+87            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+87-->[:unimodules-react-native-adapter] /Users/raduflorin95/Desktop/native-features-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+88
+89        <provider
+89-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-26:20
+90            android:name="expo.modules.filesystem.FileSystemFileProvider"
+90-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-74
+91            android:authorities="com.rnguide.FileSystemFileProvider"
+91-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-74
+92            android:exported="false"
+92-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-37
+93            android:grantUriPermissions="true" >
+93-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-47
+94            <meta-data
+94-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-25:70
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:17-67
+96                android:resource="@xml/file_system_provider_paths" />
+96-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+97        </provider> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+98        <provider
+98-->[:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-28:20
+99            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+99-->[:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-76
+100            android:authorities="com.rnguide.ImagePickerFileProvider"
+100-->[:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-75
+101            android:exported="false"
+101-->[:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-37
+102            android:grantUriPermissions="true" >
+102-->[:expo-image-picker] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-47
+103            <meta-data
+103-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-25:70
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:17-67
+105                android:resource="@xml/image_picker_provider_paths" />
+105-->[:expo-file-system] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+106        </provider>
+107
+108        <service
+108-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-19:40
+109            android:name="expo.modules.location.services.LocationTaskService"
+109-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-78
+110            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+110-->[:expo-location] /Users/raduflorin95/Desktop/native-features-app/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+111        <uses-library
+111-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+112            android:name="org.apache.http.legacy"
+112-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+113            android:required="false" />
+113-->[com.google.android.gms:play-services-maps:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/1f4da1e2f511b7f295d8ca5f73fc8279/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+123
+124        <service
+124-->[androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+125            android:name="androidx.room.MultiInstanceInvalidationService"
+125-->[androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+126            android:exported="false" />
+126-->[androidx.room:room-runtime:2.1.0] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/5f7132f69994fe4e2c8f322e81b3f8c9/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+127        <service
+127-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+128            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+128-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+129            android:exported="false" />
+129-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+130        <service
+130-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+131            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+131-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+132            android:exported="false" />
+132-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+133        <service
+133-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+134            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+134-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+135            android:exported="false" />
+135-->[io.nlopez.smartlocation:library:3.2.11] /Users/raduflorin95/.gradle/caches/transforms-2/files-2.1/b64f25798e005389f276602097d0cf74/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+136    </application>
+137
+138</manifest>

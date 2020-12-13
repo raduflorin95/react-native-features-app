@@ -1,0 +1,6 @@
+module Pods_RNGuide {
+  umbrella header "Pods-RNGuide-umbrella.h"
+
+  export *
+  module * { export * }
+}
